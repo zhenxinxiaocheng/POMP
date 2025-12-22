@@ -1,5 +1,5 @@
 <template>
-  <div class="suno-music-container">
+  <div class="suno-music-container" :class="`${program}${theme}-suno-container`">
     <h2 class="suno-title">🎵 AI音乐生成</h2>
     
     <!-- 生成音乐表单 -->
@@ -32,8 +32,8 @@
           <option value="V4">V4 改进的人声质量</option>
           <option value="V4_5">V4_5 更智能的提示词，更快的生成速度</option>
           <option value="V4_5PLUS">V4_5PLUS 音色更丰富，新的创作方式</option>
-          <option value="V4_5ALL" selected>V4_5ALL 更好的歌曲结构</option>
-          <option value="V5">V5 更卓越的音乐表现力，生成速度更快</option>
+          <option value="V4_5ALL">V4_5ALL 更好的歌曲结构</option>
+          <option value="V5" selected>V5 更卓越的音乐表现力，生成速度更快</option>
         </select>
       </div>
       
@@ -365,9 +365,12 @@
 <script>
 // 导入项目中已有的request工具
 import { request } from '@/network/request'
+// 导入主题混入
+import { theme } from '@/mixin/global/theme'
 
 export default {
   name: 'SunoMusic',
+  mixins: [theme],
   data() {
     return {
       form: {
@@ -745,17 +748,18 @@ export default {
   margin: 0 auto;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: var(--light-bg-color);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--light-text-color);
 }
 
 .suno-title {
   text-align: center;
-  color: #333;
+  color: var(--light-main-color);
   margin-bottom: 30px;
   font-size: 28px;
   font-weight: 700;
@@ -788,7 +792,7 @@ label {
   display: block;
   margin-bottom: 8px;
   font-weight: 600;
-  color: #555;
+  color: var(--light-text-color);
   font-size: 14px;
 }
 
@@ -806,13 +810,15 @@ select {
   font-size: 14px;
   transition: all 0.3s;
   box-sizing: border-box;
+  background-color: white;
+  color: var(--light-text-color);
 }
 
 input:focus,
 textarea:focus,
 select:focus {
   outline: none;
-  border-color: #1890ff;
+  border-color: var(--light-text-tint);
   box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
 }
 
@@ -837,7 +843,7 @@ textarea {
 .custom-mode-section h3 {
   margin-bottom: 20px;
   font-size: 18px;
-  color: #333;
+  color: var(--light-main-color);
   font-weight: 600;
 }
 
@@ -846,6 +852,7 @@ textarea {
   align-items: center;
   cursor: pointer;
   font-weight: normal;
+  color: var(--light-text-color);
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -856,7 +863,7 @@ textarea {
 .generate-btn {
   width: 100%;
   padding: 12px;
-  background-color: #1890ff;
+  background-color: var(--light-text-tint);
   color: white;
   border: none;
   border-radius: 6px;
@@ -868,7 +875,7 @@ textarea {
 }
 
 .generate-btn:hover {
-  background-color: #40a9ff;
+  opacity: 0.9;
 }
 
 .generate-btn:disabled {
@@ -896,7 +903,7 @@ textarea {
   height: 50px;
   margin: 0 auto 20px;
   border: 4px solid #f3f3f3;
-  border-top: 4px solid #1890ff;
+  border-top: 4px solid var(--light-text-tint);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -907,13 +914,13 @@ textarea {
 }
 
 .generating-content h3 {
-  color: #333;
+  color: var(--light-main-color);
   margin-bottom: 15px;
   font-size: 20px;
 }
 
 .generating-content p {
-  color: #666;
+  color: var(--light-text-color);
   margin-bottom: 25px;
 }
 
@@ -939,13 +946,13 @@ textarea {
 }
 
 .check-btn {
-  background-color: #1890ff;
+  background-color: var(--light-text-tint);
   color: white;
-  border-color: #1890ff;
+  border-color: var(--light-text-tint);
 }
 
 .check-btn:hover {
-  background-color: #40a9ff;
+  opacity: 0.9;
 }
 
 .check-btn:disabled {
@@ -956,12 +963,12 @@ textarea {
 
 .cancel-btn {
   background-color: white;
-  color: #666;
+  color: var(--light-text-color);
 }
 
 .cancel-btn:hover {
-  color: #1890ff;
-  border-color: #1890ff;
+  color: var(--light-text-tint);
+  border-color: var(--light-text-tint);
 }
 
 .result-section {
@@ -981,7 +988,7 @@ textarea {
 }
 
 .task-info {
-  color: #666;
+  color: var(--light-text-color);
   margin-bottom: 25px;
   font-size: 14px;
 }
@@ -1027,13 +1034,13 @@ textarea {
 .music-title {
   margin: 0;
   font-size: 16px;
-  color: #333;
+  color: var(--light-main-color);
   font-weight: 600;
 }
 
 .music-model {
   font-size: 12px;
-  color: #1890ff;
+  color: var(--light-text-tint);
   background-color: rgba(24, 144, 255, 0.1);
   padding: 2px 8px;
   border-radius: 10px;
@@ -1069,11 +1076,11 @@ textarea {
 
 .music-info p {
   margin: 8px 0;
-  color: #666;
+  color: var(--light-text-color);
 }
 
 .music-info strong {
-  color: #333;
+  color: var(--light-main-color);
   font-weight: 600;
 }
 
@@ -1105,17 +1112,17 @@ textarea {
 }
 
 .download-btn:hover {
-  background-color: #73d13d;
+  opacity: 0.9;
 }
 
 .source-btn {
   background-color: white;
-  color: #666;
+  color: var(--light-text-color);
 }
 
 .source-btn:hover {
-  color: #1890ff;
-  border-color: #1890ff;
+  color: var(--light-text-tint);
+  border-color: var(--light-text-tint);
 }
 
 .result-actions {
@@ -1125,7 +1132,7 @@ textarea {
 
 .generate-again-btn {
   padding: 10px 24px;
-  background-color: #1890ff;
+  background-color: var(--light-text-tint);
   color: white;
   border: none;
   border-radius: 6px;
@@ -1136,7 +1143,7 @@ textarea {
 }
 
 .generate-again-btn:hover {
-  background-color: #40a9ff;
+  opacity: 0.9;
 }
 
 .error-message {
@@ -1183,7 +1190,7 @@ textarea {
 }
 
 .history-title {
-  color: #1890ff;
+  color: var(--light-text-tint);
   margin-bottom: 20px;
   font-size: 20px;
 }
@@ -1220,13 +1227,13 @@ textarea {
 }
 
 .query-btn {
-  background-color: #1890ff;
+  background-color: var(--light-text-tint);
   color: white;
-  border-color: #1890ff;
+  border-color: var(--light-text-tint);
 }
 
 .query-btn:hover {
-  background-color: #40a9ff;
+  opacity: 0.9;
 }
 
 .query-all-btn {
@@ -1236,17 +1243,17 @@ textarea {
 }
 
 .query-all-btn:hover {
-  background-color: #73d13d;
+  opacity: 0.9;
 }
 
 .reset-btn {
   background-color: white;
-  color: #666;
+  color: var(--light-text-color);
 }
 
 .reset-btn:hover {
-  color: #1890ff;
-  border-color: #1890ff;
+  color: var(--light-text-tint);
+  border-color: var(--light-text-tint);
 }
 
 .history-list {
@@ -1267,7 +1274,7 @@ textarea {
 
 .history-item:hover {
   background-color: #f0f5ff;
-  border-color: #1890ff;
+  border-color: var(--light-text-tint);
 }
 
 .history-item-header {
@@ -1279,7 +1286,7 @@ textarea {
 
 .history-task-id {
   font-size: 14px;
-  color: #333;
+  color: var(--light-main-color);
 }
 
 .history-status {
@@ -1301,7 +1308,7 @@ textarea {
 
 .status-pending {
   background-color: rgba(24, 144, 255, 0.1);
-  color: #1890ff;
+  color: var(--light-text-tint);
 }
 
 .status-first_success {
@@ -1311,7 +1318,7 @@ textarea {
 
 .history-item-body {
   font-size: 12px;
-  color: #666;
+  color: var(--light-text-color);
 }
 
 .history-time {
@@ -1338,8 +1345,177 @@ textarea {
 }
 
 .detail-title {
-  color: #333;
+  color: var(--light-main-color);
   margin-bottom: 20px;
   font-size: 18px;
+}
+
+/* 深色主题样式 */
+.dance-music-dark-suno-container {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-text-color);
+}
+
+.dance-music-dark-suno-container .suno-title {
+  color: var(--dark-main-color);
+}
+
+.dance-music-dark-suno-container .suno-form,
+.dance-music-dark-suno-container .generating-content,
+.dance-music-dark-suno-container .result-section,
+.dance-music-dark-suno-container .history-section {
+  background-color: var(--dark-block-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--dark-border-color);
+}
+
+.dance-music-dark-suno-container label {
+  color: var(--dark-text-color);
+}
+
+.dance-music-dark-suno-container input,
+.dance-music-dark-suno-container textarea,
+.dance-music-dark-suno-container select {
+  background-color: var(--dark-block-bg-color);
+  color: var(--dark-text-color);
+  border: 1px solid var(--dark-border-color);
+}
+
+.dance-music-dark-suno-container input:focus,
+.dance-music-dark-suno-container textarea:focus,
+.dance-music-dark-suno-container select:focus {
+  border-color: var(--dark-text-tint);
+  box-shadow: 0 0 0 2px rgba(184, 37, 37, 0.2);
+}
+
+.dance-music-dark-suno-container .custom-mode-section h3 {
+  color: var(--dark-main-color);
+}
+
+.dance-music-dark-suno-container .checkbox-label {
+  color: var(--dark-text-color);
+}
+
+.dance-music-dark-suno-container .generate-btn,
+.dance-music-dark-suno-container .check-btn,
+.dance-music-dark-suno-container .generate-again-btn,
+.dance-music-dark-suno-container .query-btn {
+  background-color: var(--dark-text-tint);
+  border-color: var(--dark-text-tint);
+}
+
+.dance-music-dark-suno-container .cancel-btn,
+.dance-music-dark-suno-container .source-btn,
+.dance-music-dark-suno-container .reset-btn {
+  background-color: var(--dark-block-bg-color);
+  color: var(--dark-text-color);
+  border: 1px solid var(--dark-border-color);
+}
+
+.dance-music-dark-suno-container .cancel-btn:hover,
+.dance-music-dark-suno-container .source-btn:hover,
+.dance-music-dark-suno-container .reset-btn:hover {
+  color: var(--dark-text-tint);
+  border-color: var(--dark-text-tint);
+}
+
+.dance-music-dark-suno-container .generating-content h3,
+.dance-music-dark-suno-container .generating-content p,
+.dance-music-dark-suno-container .task-info,
+.dance-music-dark-suno-container .music-title,
+.dance-music-dark-suno-container .music-info p,
+.dance-music-dark-suno-container .music-info strong,
+.dance-music-dark-suno-container .detail-title,
+.dance-music-dark-suno-container .history-task-id,
+.dance-music-dark-suno-container .history-item-body {
+  color: var(--dark-text-color);
+}
+
+.dance-music-dark-suno-container .music-item {
+  background-color: var(--dark-block-bg-color);
+  border: 1px solid var(--dark-border-color);
+}
+
+.dance-music-dark-suno-container .music-model {
+  color: var(--dark-text-tint);
+  background-color: rgba(184, 37, 37, 0.1);
+}
+
+.dance-music-dark-suno-container .history-title {
+  color: var(--dark-text-tint);
+}
+
+.dance-music-dark-suno-container .history-item {
+  background-color: var(--dark-block-bg-color);
+  border: 1px solid var(--dark-border-color);
+}
+
+.dance-music-dark-suno-container .history-item:hover {
+  background-color: var(--dark-hover-bg-color);
+  border-color: var(--dark-text-tint);
+}
+
+.dance-music-dark-suno-container .status-pending {
+  color: var(--dark-text-tint);
+  background-color: rgba(184, 37, 37, 0.1);
+}
+
+/* 绿色主题样式 */
+.dance-music-green-suno-container {
+  background-color: var(--green-bg-color);
+  color: var(--green-text-color);
+}
+
+.dance-music-green-suno-container .suno-title {
+  color: var(--green-text-color);
+}
+
+.dance-music-green-suno-container .suno-form,
+.dance-music-green-suno-container .generating-content,
+.dance-music-green-suno-container .result-section,
+.dance-music-green-suno-container .history-section {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dance-music-green-suno-container label {
+  color: var(--green-text-color);
+}
+
+.dance-music-green-suno-container .custom-mode-section h3 {
+  color: var(--green-text-color);
+}
+
+.dance-music-green-suno-container .checkbox-label {
+  color: var(--green-text-color);
+}
+
+.dance-music-green-suno-container .generate-btn,
+.dance-music-green-suno-container .check-btn,
+.dance-music-green-suno-container .generate-again-btn,
+.dance-music-green-suno-container .query-btn {
+  background-color: var(--green-text-tint);
+  border-color: var(--green-text-tint);
+}
+
+.dance-music-green-suno-container .music-title,
+.dance-music-green-suno-container .music-info strong,
+.dance-music-green-suno-container .detail-title,
+.dance-music-green-suno-container .history-task-id {
+  color: var(--green-text-tint);
+}
+
+.dance-music-green-suno-container .history-title {
+  color: var(--green-text-tint);
+}
+
+.dance-music-green-suno-container .history-item:hover {
+  background-color: rgba(62, 184, 116, 0.1);
+  border-color: var(--green-text-tint);
+}
+
+.dance-music-green-suno-container .status-pending {
+  color: var(--green-text-tint);
+  background-color: rgba(62, 184, 116, 0.1);
 }
 </style>
