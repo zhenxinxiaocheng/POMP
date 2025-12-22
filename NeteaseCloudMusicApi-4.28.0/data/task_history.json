@@ -1,0 +1,68 @@
+[
+  {
+    "taskId": "743299596fbcad9dc921f4172dfa1bc7",
+    "status": "SUCCESS",
+    "prompt": "???????????",
+    "createTime": 1764680807961,
+    "lastUpdateTime": 1764686306024,
+    "music": {
+      "id": "94c2754b-7609-45f4-aff5-e2fe9ab05ffb",
+      "audioUrl": "https://musicfile.api.box/OTRjMjc1NGItNzYwOS00NWY0LWFmZjUtZTJmZTlhYjA1ZmZi.mp3",
+      "sourceAudioUrl": "https://cdn1.suno.ai/94c2754b-7609-45f4-aff5-e2fe9ab05ffb.mp3",
+      "streamAudioUrl": "https://musicfile.api.box/OTRjMjc1NGItNzYwOS00NWY0LWFmZjUtZTJmZTlhYjA1ZmZi",
+      "sourceStreamAudioUrl": "https://cdn1.suno.ai/94c2754b-7609-45f4-aff5-e2fe9ab05ffb.mp3",
+      "imageUrl": "https://musicfile.api.box/OTRjMjc1NGItNzYwOS00NWY0LWFmZjUtZTJmZTlhYjA1ZmZi.jpeg",
+      "sourceImageUrl": "https://cdn2.suno.ai/image_94c2754b-7609-45f4-aff5-e2fe9ab05ffb.jpeg",
+      "prompt": "[Verse]\nSeven shadows on the wall\nWhispers rise but never fall\nWhat’s the sound behind the door\n\n[Prechorus]\nDo you feel it crawling near\nIs it hope or just your fear\n\n[Chorus]\nQuestions float like smoke in air\nAnswers vanish—do we care\nMystery\nMystery everywhere\n\n[Verse 2]\nA clock that ticks but skips the time\nA bell that rings without a chime\nWho’s the voice that speaks in rhyme\n\n[Bridge]\nTurn the key but it won’t fit\nTruth and lies\nA perfect split\nEvery answer’s counterfeit\n\n[Chorus]\nQuestions float like smoke in air\nAnswers vanish—do we care\nMystery\nMystery everywhere",
+      "modelName": "chirp-crow",
+      "title": "Mystery in the Air",
+      "tags": "electronic, moody, atmospheric",
+      "createTime": 1764680921206,
+      "duration": 175.92
+    }
+  },
+  {
+    "taskId": "90b1d16e527c0937fdc205a6d19662c9",
+    "status": "SUCCESS",
+    "prompt": "???????????",
+    "createTime": 1764680948669,
+    "lastUpdateTime": 1764686385846,
+    "music": {
+      "id": "c8ee2573-313d-4791-970e-0278261ac571",
+      "audioUrl": "https://musicfile.api.box/YzhlZTI1NzMtMzEzZC00NzkxLTk3MGUtMDI3ODI2MWFjNTcx.mp3",
+      "sourceAudioUrl": "https://cdn1.suno.ai/c8ee2573-313d-4791-970e-0278261ac571.mp3",
+      "streamAudioUrl": "https://musicfile.api.box/YzhlZTI1NzMtMzEzZC00NzkxLTk3MGUtMDI3ODI2MWFjNTcx",
+      "sourceStreamAudioUrl": "https://cdn1.suno.ai/c8ee2573-313d-4791-970e-0278261ac571.mp3",
+      "imageUrl": "https://musicfile.api.box/YzhlZTI1NzMtMzEzZC00NzkxLTk3MGUtMDI3ODI2MWFjNTcx.jpeg",
+      "sourceImageUrl": "https://cdn2.suno.ai/image_c8ee2573-313d-4791-970e-0278261ac571.jpeg",
+      "prompt": "[Verse]\nWho am I in the mirror’s haze\nWhy does the sky shift a hundred ways\nWhere do the stars go when they fall\nIs this my life or is it all\n\n[Prechorus]\nWhat’s the sound of silence breaking\nWhy’s my heart always aching aching\n\n[Chorus]\nWhy why why does it feel so wrong\nWhy why why can’t I belong\nIs there a place where I fit in\nOr am I chasing the wind\n\n[Verse 2]\nWhat’s the cost of a dream too big\nCan you plant a seed on a stone so thick\nDo the waves hear the moon’s soft call\nOr do they crash with no thought at all\n\n[Bridge]\nWhy do we run when the road’s not straight\nWhy do we fight when it’s just too late\nQuestions questions pile up high\nBut the answers always pass me by\n\n[Chorus]\nWhy why why does it feel so wrong\nWhy why why can’t I belong\nIs there a place where I fit in\nOr am I chasing the wind",
+      "modelName": "chirp-crow",
+      "title": "The Question Song",
+      "tags": "pop, electronic with pulsing synths and tight drum loops",
+      "createTime": 1764681070704,
+      "duration": 182.6
+    }
+  },
+  {
+    "taskId": "798cdbe80c76a39e327f8e29ae459670",
+    "status": "SUCCESS",
+    "prompt": "生成音乐",
+    "createTime": 1764682157160,
+    "lastUpdateTime": 1764686408528,
+    "music": {
+      "id": "6310a821-e949-4fd8-b654-e4bbfd575005",
+      "audioUrl": "https://musicfile.api.box/NjMxMGE4MjEtZTk0OS00ZmQ4LWI2NTQtZTRiYmZkNTc1MDA1.mp3",
+      "sourceAudioUrl": "https://cdn1.suno.ai/6310a821-e949-4fd8-b654-e4bbfd575005.mp3",
+      "streamAudioUrl": "https://musicfile.api.box/NjMxMGE4MjEtZTk0OS00ZmQ4LWI2NTQtZTRiYmZkNTc1MDA1",
+      "sourceStreamAudioUrl": "https://cdn1.suno.ai/6310a821-e949-4fd8-b654-e4bbfd575005.mp3",
+      "imageUrl": "https://musicfile.api.box/NjMxMGE4MjEtZTk0OS00ZmQ4LWI2NTQtZTRiYmZkNTc1MDA1.jpeg",
+      "sourceImageUrl": "https://cdn2.suno.ai/image_6310a821-e949-4fd8-b654-e4bbfd575005.jpeg",
+      "prompt": "[Verse]\n夜色洒满了窗台\n星光在远方徘徊\n你的笑容像尘埃\n轻轻落在我胸怀\n\n[Chorus]\n星空之下 我找答案\n你的声音 是唯一的闪电\n星空之下 心跳不散\n你的名字 是我心的起点\n\n[Verse 2]\n微风吹过了山脉\n树影摇曳像舞台\n你的影子在发呆\n却让我无法释怀\n\n[Chorus]\n星空之下 我找答案\n你的声音 是唯一的闪电\n星空之下 心跳不散\n你的名字 是我心的起点\n\n[Bridge]\n如果命运是一场游戏\n你是我唯一的谜底\n如果时间能停止呼吸\n我愿停在这一秒里\n\n[Chorus]\n星空之下 我找答案\n你的声音 是唯一的闪电\n星空之下 心跳不散\n你的名字 是我心的起点",
+      "modelName": "chirp-crow",
+      "title": "星空之下",
+      "tags": "dreamy, melodic, piano-driven ballad with soft crescendos and gentle strings",
+      "createTime": 1764682249053,
+      "duration": 132.96
+    }
+  }
+]

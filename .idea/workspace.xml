@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="修改">
+      <change beforePath="$PROJECT_DIR$/vue_music/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_music/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/public/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/assets/img/loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/assets/img/qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/assets/player/play-bar-support.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/assets/player/play-bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/button/Button.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/empty/empty.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/mask/BMask.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/scroll/Scroll.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/song-list/song-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/split/split.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/common/swiper/Swiper.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/album-item/album-item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/artist-item/artist-item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/artist-list/artist-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/musiclist/MusicList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/mv-list/mv-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/mv-rank-list/mv-rank-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/mv-rank-list/rank-item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/search/hot-search-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/search/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/search/search-suggest.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/components/content/user/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/layout/Article.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/layout/Aside.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/layout/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/layout/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/mixin/components/forcible-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/mixin/components/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/mixin/global/icon-active-color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/mixin/global/imgLoad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/mixin/global/play-music.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/mixin/global/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/album.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/artist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/discover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/music-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/mv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/suno.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/network/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/Player.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/init-songs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/player-cover.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/player-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/player-lyric.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/player-pure.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/player/playing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/router/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/components/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/components/simi-mv.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/variables/variable-dark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/variables/variable-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/styles/variables/variable-white.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/utils/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/utils/parse-lyric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/utils/random.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/utils/rem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/utils/tool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/utils/window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/ai-music/SunoMusic.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/album-detail/album-detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/album-detail/childsComps/baseInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/artist-detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/childsComps/album-detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/childsComps/artist-baseinfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/childsComps/artist-hot50.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/childsPage/album-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/childsPage/artist-desc-detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-detail/childsPage/artist-simi.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-list/artist-category.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/artist-list/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/individuation/Individuation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/individuation/childsComps/PrivateContent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/individuation/childsComps/newSongs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/list-detail/MusicListDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/list-detail/childsComps/MusicListLive.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/list-detail/childsComps/Recommends.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/list-detail/childsComps/baseInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/music-list/all-music-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/mv/childsComps/SimiMvItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/mv/childsComps/mv-bar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/mv/mv-category.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/mv/mv-detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/mv/mv.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/new-songs/new-songs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/rank-list/childComps/RankListItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/rank-list/rank-list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/childsPage/search-album.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/childsPage/search-artist.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/childsPage/search-mv.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/childsPage/search-playlist.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/childsPage/search-songs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/src/views/search-detail/search-detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_music/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/vue_music" source="master" />
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/vue_music" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue_music" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zhenxinxiaocheng&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zhenxinxiaocheng/POMP.git&quot;,
+    &quot;accountId&quot;: &quot;ce1297ae-25d9-4ca0-bb76-f7d2e0a7216c&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\apache-maven-3.9.4" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="ms-17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="37CMBUYLWicHRW7N1iuUkBNSUum" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "E:/桌面/code/POMP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Mercurial",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.28293.22" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.28293.22" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="" />
+      <created>1766402463135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766402463135</updated>
+      <workItem from="1766402464237" duration="411000" />
+      <workItem from="1766402894416" duration="197000" />
+      <workItem from="1766403095580" duration="1000" />
+      <workItem from="1766403119176" duration="9000" />
+      <workItem from="1766403143508" duration="69000" />
+      <workItem from="1766403641492" duration="416000" />
+      <workItem from="1766404232728" duration="176000" />
+      <workItem from="1766404413061" duration="200000" />
+    </task>
+    <task id="LOCAL-00001" summary="x">
+      <option name="closed" value="true" />
+      <created>1766402520204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766402520204</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改">
+      <option name="closed" value="true" />
+      <created>1766403916166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766403916166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vue_music" />
+    </ignored-roots>
+    <MESSAGE value="x" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
+</project>
