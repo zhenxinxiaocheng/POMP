@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="feat(album): 添加专辑详情页面和相关组件&#10;&#10;- 创建专辑详情页面 album-detail.vue，包含基础信息和歌曲列表&#10;- 新增 album.js 网络请求模块，提供专辑详情获取功能&#10;- 添加专辑项目组件 album-item.vue，显示专辑封面和发行时间&#10;- 实现艺术家详情页的专辑列表功能&#10;- 集成滚动组件和歌曲列表组件，优化页面布局&#10;- 添加浏览器兼容性配置文件 .browserslistrc&#10;- 更新项目忽略文件配置，添加 IDE 相关忽略规则" />
+    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="修改" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,26 +72,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/桌面/code/POMP&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Mercurial&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "E:/桌面/code/POMP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Mercurial",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "D:\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -151,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767589739441</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="docs(request): 更新请求配置添加注释说明&#10;&#10;- 为baseURL添加中文注释说明请求根路径&#10;- 在服务器地址后添加注释标识&#10;- 清理IDE工作空间中的旧提交记录&#10;- 更新最后一次提交消息为专辑功能相关描述">
+      <option name="closed" value="true" />
+      <created>1767589911918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767589911918</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改">
+      <option name="closed" value="true" />
+      <created>1767590082355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767590082355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,9 +190,10 @@
       <path value="$PROJECT_DIR$/vue_music" />
     </ignored-roots>
     <MESSAGE value="x" />
-    <MESSAGE value="修改" />
     <MESSAGE value="feat(ai-music): 实现SunoMusic组件主题切换功能&#10;&#10;- 添加主题混入支持动态切换深色、浅色和绿色主题&#10;- 更新默认选中的模型版本为V5&#10;- 使用CSS变量统一管理颜色配置&#10;- 为表单元素添加焦点状态样式优化&#10;- 完善历史记录列表的样式适配&#10;- 修复生成按钮在不同主题下的显示问题&#10;- 优化加载动画和错误提示的视觉效果&#10;- 补充深色和绿色主题的完整样式定义&#10;- 调整容器类名以支持程序化主题控制" />
     <MESSAGE value="feat(album): 添加专辑详情页面和相关组件&#10;&#10;- 创建专辑详情页面 album-detail.vue，包含基础信息和歌曲列表&#10;- 新增 album.js 网络请求模块，提供专辑详情获取功能&#10;- 添加专辑项目组件 album-item.vue，显示专辑封面和发行时间&#10;- 实现艺术家详情页的专辑列表功能&#10;- 集成滚动组件和歌曲列表组件，优化页面布局&#10;- 添加浏览器兼容性配置文件 .browserslistrc&#10;- 更新项目忽略文件配置，添加 IDE 相关忽略规则" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(album): 添加专辑详情页面和相关组件&#10;&#10;- 创建专辑详情页面 album-detail.vue，包含基础信息和歌曲列表&#10;- 新增 album.js 网络请求模块，提供专辑详情获取功能&#10;- 添加专辑项目组件 album-item.vue，显示专辑封面和发行时间&#10;- 实现艺术家详情页的专辑列表功能&#10;- 集成滚动组件和歌曲列表组件，优化页面布局&#10;- 添加浏览器兼容性配置文件 .browserslistrc&#10;- 更新项目忽略文件配置，添加 IDE 相关忽略规则" />
+    <MESSAGE value="docs(request): 更新请求配置添加注释说明&#10;&#10;- 为baseURL添加中文注释说明请求根路径&#10;- 在服务器地址后添加注释标识&#10;- 清理IDE工作空间中的旧提交记录&#10;- 更新最后一次提交消息为专辑功能相关描述" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
 </project>
