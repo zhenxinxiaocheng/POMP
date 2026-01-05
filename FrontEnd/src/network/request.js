@@ -1,7 +1,8 @@
 import axios from 'axios'
 import $store from '@/store/index'
 
-const baseURL="http://47.120.34.167:3000";
+// 请求的根路径
+const baseURL="http://47.120.34.167:3000";//服务器地址
 
 let ajaxTimer = 0;
 export function request(config) {
