@@ -4,7 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="修改" />
+    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="feat(ai-music): 实现SunoMusic组件主题切换功能&#10;&#10;- 添加主题混入支持动态切换深色、浅色和绿色主题&#10;- 更新默认选中的模型版本为V5&#10;- 使用CSS变量统一管理颜色配置&#10;- 为表单元素添加焦点状态样式优化&#10;- 完善历史记录列表的样式适配&#10;- 修复生成按钮在不同主题下的显示问题&#10;- 优化加载动画和错误提示的视觉效果&#10;- 补充深色和绿色主题的完整样式定义&#10;- 调整容器类名以支持程序化主题控制">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/app.7ea7e417.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-002ee8a2.d643fddb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-0df20e8c.5f375d66.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-23a632db.ba97ff82.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-267f8367.0da7698a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-3128606d.e2b08bab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-36422e4e.f8b349f2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-3c834566.1253f124.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-42b11e38.cfec492a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-4c18ca19.cfd0616f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-53b496cc.ff27258f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-66649bba.4cfcc77d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-765efae1.c5882833.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-7d677b96.ba68484f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-86c4b1ce.7785af8a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-87a5dd88.03eb8483.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-eb9bdfdc.30ff765e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-edad0368.e121b51c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/css/chunk-vendors.887e59d4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/element-icons.535877f5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/element-icons.732389de.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/iconfont.0836d75a.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/iconfont.32e25ae1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/iconfont.46b5a6f1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/iconfont.48f8733c.48f8733c.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/fonts/iconfont.8de658df.8de658df.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/img/iconfont.9f6c0c91.9f6c0c91.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/img/iconfont.e58c7d39.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/img/play-bar.e5a7a142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/app.98bb03c1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/app.98bb03c1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-002ee8a2.f26f9dea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-002ee8a2.f26f9dea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-0df20e8c.d098d878.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-0df20e8c.d098d878.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-23a632db.edfb6705.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-23a632db.edfb6705.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-267f8367.f8679443.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-267f8367.f8679443.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-3128606d.eb66e7eb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-3128606d.eb66e7eb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-36422e4e.de850b8f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-36422e4e.de850b8f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-3c834566.a0cb7877.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-3c834566.a0cb7877.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-42b11e38.4721b156.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-42b11e38.4721b156.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-4c06a8eb.bcc9a968.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-4c06a8eb.bcc9a968.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-4c18ca19.2987fac7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-4c18ca19.2987fac7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-53b496cc.cf9a7a8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-53b496cc.cf9a7a8b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-66649bba.ac3cc578.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-66649bba.ac3cc578.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-765efae1.859b54c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-765efae1.859b54c8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-7d677b96.ce291dc8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-7d677b96.ce291dc8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-86c4b1ce.1cde9093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-86c4b1ce.1cde9093.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-87a5dd88.d4f0cc12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-87a5dd88.d4f0cc12.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-eb9bdfdc.66d5be33.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-eb9bdfdc.66d5be33.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-edad0368.115c292d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-edad0368.115c292d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-vendors.4fdeec85.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/js/chunk-vendors.4fdeec85.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_music/dist/logo.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,6 +186,8 @@
       <workItem from="1766404232728" duration="176000" />
       <workItem from="1766404413061" duration="200000" />
       <workItem from="1766404968652" duration="9000" />
+      <workItem from="1766410380735" duration="1379000" />
+      <workItem from="1766842312054" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <option name="closed" value="true" />
@@ -130,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766403916166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(ai-music): 实现SunoMusic组件主题切换功能&#10;&#10;- 添加主题混入支持动态切换深色、浅色和绿色主题&#10;- 更新默认选中的模型版本为V5&#10;- 使用CSS变量统一管理颜色配置&#10;- 为表单元素添加焦点状态样式优化&#10;- 完善历史记录列表的样式适配&#10;- 修复生成按钮在不同主题下的显示问题&#10;- 优化加载动画和错误提示的视觉效果&#10;- 补充深色和绿色主题的完整样式定义&#10;- 调整容器类名以支持程序化主题控制">
+      <option name="closed" value="true" />
+      <created>1766410430733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766410430733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +236,7 @@
     </ignored-roots>
     <MESSAGE value="x" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="feat(ai-music): 实现SunoMusic组件主题切换功能&#10;&#10;- 添加主题混入支持动态切换深色、浅色和绿色主题&#10;- 更新默认选中的模型版本为V5&#10;- 使用CSS变量统一管理颜色配置&#10;- 为表单元素添加焦点状态样式优化&#10;- 完善历史记录列表的样式适配&#10;- 修复生成按钮在不同主题下的显示问题&#10;- 优化加载动画和错误提示的视觉效果&#10;- 补充深色和绿色主题的完整样式定义&#10;- 调整容器类名以支持程序化主题控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ai-music): 实现SunoMusic组件主题切换功能&#10;&#10;- 添加主题混入支持动态切换深色、浅色和绿色主题&#10;- 更新默认选中的模型版本为V5&#10;- 使用CSS变量统一管理颜色配置&#10;- 为表单元素添加焦点状态样式优化&#10;- 完善历史记录列表的样式适配&#10;- 修复生成按钮在不同主题下的显示问题&#10;- 优化加载动画和错误提示的视觉效果&#10;- 补充深色和绿色主题的完整样式定义&#10;- 调整容器类名以支持程序化主题控制" />
   </component>
 </project>
