@@ -69,7 +69,7 @@ npm install
 
 3. 启动服务
 ```bash
-npm start
+node app.js
 ```
 
 后端服务将在 `http://localhost:3000` 运行

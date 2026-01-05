@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="修改" />
+    <list default="true" id="17a3a914-e840-43f2-af00-e7432f209464" name="更改" comment="docs: 添加项目说明文档 README.md&#10;&#10;- 创建项目结构说明文档，包含前后端目录结构&#10;- 添加技术栈详细介绍，涵盖后端 Node.js/Express 和前端 Vue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,27 +75,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/桌面/code/POMP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Mercurial",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "D:\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/桌面/code/POMP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Mercurial&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -119,6 +122,7 @@
       <workItem from="1766404968652" duration="9000" />
       <workItem from="1766410380735" duration="1379000" />
       <workItem from="1766842312054" duration="19000" />
+      <workItem from="1767591090359" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <option name="closed" value="true" />
@@ -168,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767590082355</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="docs: 添加项目说明文档 README.md&#10;&#10;- 创建项目结构说明文档，包含前后端目录结构&#10;- 添加技术栈详细介绍，涵盖后端 Node.js/Express 和前端 Vue 2.x&#10;- 实现功能特性说明，包括音乐搜索、播放、AI 音乐生成等&#10;- 添加安装与运行指南，提供前后端部署步骤&#10;- 配置项目配置说明，包含 API 调用和端口设置&#10;- 添加模块说明文档，介绍主要组件和功能模块&#10;- 补充 API 文档访问方式和项目截图展示&#10;- 完善许可证、贡献指南和联系方式信息">
+      <option name="closed" value="true" />
+      <created>1767590267480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767590267480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +206,7 @@
     <MESSAGE value="feat(album): 添加专辑详情页面和相关组件&#10;&#10;- 创建专辑详情页面 album-detail.vue，包含基础信息和歌曲列表&#10;- 新增 album.js 网络请求模块，提供专辑详情获取功能&#10;- 添加专辑项目组件 album-item.vue，显示专辑封面和发行时间&#10;- 实现艺术家详情页的专辑列表功能&#10;- 集成滚动组件和歌曲列表组件，优化页面布局&#10;- 添加浏览器兼容性配置文件 .browserslistrc&#10;- 更新项目忽略文件配置，添加 IDE 相关忽略规则" />
     <MESSAGE value="docs(request): 更新请求配置添加注释说明&#10;&#10;- 为baseURL添加中文注释说明请求根路径&#10;- 在服务器地址后添加注释标识&#10;- 清理IDE工作空间中的旧提交记录&#10;- 更新最后一次提交消息为专辑功能相关描述" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="docs: 添加项目说明文档 README.md&#10;&#10;- 创建项目结构说明文档，包含前后端目录结构&#10;- 添加技术栈详细介绍，涵盖后端 Node.js/Express 和前端 Vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: 添加项目说明文档 README.md&#10;&#10;- 创建项目结构说明文档，包含前后端目录结构&#10;- 添加技术栈详细介绍，涵盖后端 Node.js/Express 和前端 Vue" />
   </component>
 </project>
